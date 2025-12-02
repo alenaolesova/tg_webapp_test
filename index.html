@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
 <div class="card-container">
     <div class="card" id="card">
         <div class="front" id="front">Привет</div>
@@ -13,10 +14,17 @@
     </div>
     <button id="nextBtn">▶</button>
 </div>
-    <button id="checkBtn">Проверить</button>
-    <div id="feedback">
-        <button id="correctBtn">Правильно</button>
-        <button id="wrongBtn">Неправильно</button>
-    </div>
+
+<div id="feedback">
+    <button id="correctBtn">Правильно</button>
+    <button id="wrongBtn">Неправильно</button>
+</div>
+
+<h3>Загрузить CSV</h3>
+<input type="file" id="csvFile" accept=".csv">
+<button id="uploadBtn">Загрузить</button>
+<div id="uploadStatus"></div>
+
+<script src="script.js"></script>
 </body>
 </html>
