@@ -1,12 +1,20 @@
-<html>
+<!DOCTYPE html>
+<html lang="ru">
 <head>
-<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <title>Карточки</title>
+    <link rel="stylesheet" href="style.css">
+</head>
 <body>
-    <h1>It works</h1>
-    <p>My first Telegram Mini App</p>
-    <script>
-      window.Telegram.WebApp.ready();
-    </script>
-	<script src="script.js"></script>
+    <div class="card" id="card">
+        <div class="front" id="front">Привет</div>
+        <div class="back" id="back">Hello</div>
+    </div>
+    <button id="checkBtn">Проверить</button>
+    <div id="feedback">
+        <button id="correctBtn">Правильно</button>
+        <button id="wrongBtn">Неправильно</button>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
