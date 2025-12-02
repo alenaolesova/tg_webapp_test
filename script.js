@@ -20,3 +20,8 @@ wrongBtn.addEventListener('click', () => {
     feedback.style.display = 'none';
     card.classList.remove('flipped');
 });
+const nextBtn = document.getElementById('nextBtn');
+nextBtn.addEventListener('click', () => {
+    alert('Показать следующую карточку'); 
+    // позже сюда подставим логику выбора следующей карточки из базы
+});
